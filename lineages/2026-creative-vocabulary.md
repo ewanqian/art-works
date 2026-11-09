@@ -34,6 +34,14 @@ Sound and image share events, but are not compelled to react identically to ever
 
 Reject unedited preset-parade looks, generic cyberpunk and decorative spectrum bars. Prefer intentionally composed space, grayscale/neutral contrasts, restrained type, clear depth, atmosphere and selective decisive color. Reuse is methodological; each work's scene design is authored again.
 
+## 2026-11-09 first-person method and preferences
+
+The original artist account distinguishes TIMER timeline/audio-bake and projection work, Drop Flow's per-frame Simulation Zone, KASHIWA's musical branches, NFIR's program-running vs mouse-operated observation, SRE's rapid comparative prototypes, and later REACTOR/HERO DOME rendered-line quality and Ableton sound selection. Do not flatten these into one generic generative visual style.
+
+- [Author account: TIMER to realtime](./2026-11-09-timer-drop-flow-realtime-author-account.md)
+- [Author account: REACTOR, HERO DOME, Ableton and ERSHA](./2026-11-09-reactor-hero-dome-audio-ersha-author-account.md)
+- [Contextual creative preferences JSON](./2026-11-09-creative-preferences.json)
+
 ## Verification before promotion
 
 Only stage-tested recordings, credits, accurate asset permissions and a selected edit justify labeling a work completed/presented. Read the implementation repo and the portfolio's confirmed records independently.

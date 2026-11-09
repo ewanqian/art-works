@@ -19,6 +19,15 @@
 4. Agents may generate diverse **short, parallel candidates**, but humans select what survives. Keep one writer per active source or DAW session.
 5. Do not place copyrighted reference media, confidential/private performance originals or unverified claims into a public archive.
 
+## 2026-11-09 asset-recovery and simulation runtime study
+
+**RESEARCH / SOURCE VERIFICATION REQUIRED.** The artist has supplied a dated oral account of the Blender-to-realtime lineage. Immediate work: (1) extract the real Drop Flow Simulation Zone and audio curve inputs, (2) compare the prior openFrameworks/Compute approximations against Blender output, (3) recover REACTOR Curve/Wireframe and HERO DOME Shader/Compositor, (4) locate the original good-sounding Ableton session and A/B exports, (5) search the missing ERSHA camera shots and point-cloud assets read-only.
+
+- [Blender GPU runtime research handoff](./2026-11-09-simulation-zone-gpu-local-agent-brief.md)
+- [REACTOR/audio/ERSHA recovery handoff](./2026-11-09-reactor-audio-ersha-local-agent-followup.md)
+
+Original commercial assets, complete shader recipes, unlicensed audio and confidential point-cloud sources stay private. Preserve other established priority and performance deadlines; this register does not assert a completed GPU engine or restored project files.
+
 ## Review checkpoint
 
 At each meaningful milestone: date; work/version; what actually exists; what is still proposed; links to source and evidence; music/visual critique; one next selected experiment. Do not turn a plan into a completion label.
