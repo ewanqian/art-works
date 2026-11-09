@@ -2,6 +2,25 @@
 
 > Dated 2026-11-09. These are **retrieval cues and artistic distinctions**, not automatic presets, final approved visual styles or public proof of technical source. Full original node parameters and exclusive material assets remain private.
 
+## TM-01 · TIMER / overhead clock → stretched field
+
+**Evidence:** artist-recalled + existing public series history. Reconstructed projection/camera/FCurve chain **not yet source-verified**.
+
+- **Keep:** initially a composed Blender scene: overhead square clock motif, circular focal relation, video/baked image textures, ColorRamp/black-white tonal shaping, and manually organized timeline. Crucial later technique: derive a very wide field from the square/circular source through authored perspective/geometry, **not arbitrary crop**.
+- **Emergent branch:** a left-to-right point flow over the stretched screen becomes an early 2D precursor to Drop Flow's Simulation Zone investigations; do not rewrite all TIMER versions as full simulation works.
+- **Flexible:** camera relation, lighting/texture layer, screen ratio mapping, audio baked curve or controlled time event.
+- **Not this:** merely create a generic ticking clock, countdown HUD or noise-based particles. Do not imply audio was live-synced or beat-detected where only a sampled curve is known.
+- **Check:** original square overhead shot vs authored wide transformation, plus real source camera/geometry; identify which animation curves are sampled/baked-like and which were manually keyed.
+
+## HD-01 · HERO DOME / moving-light material and wide-field composition
+
+**Evidence:** artist-recalled; author-selected render and exact material/Compositor topology still unverified.
+
+- **Keep:** real 3D structural geometry across an unusually wide canvas, selective scan of wire/curves and local light, controlled passage from darkness to illumination, deliberate noise/emission/lighting composition.
+- **Flexible:** light direction, rim versus low key, phase envelopes, material scan, selected spatial camera, compositor texture and local contrast.
+- **Not this:** every layer flashing on each beat, arbitrary HDR bloom, flattening wide spatial composition to a center icon, or automatically calling a four-phase visual plan four physical screens.
+- **Check:** the real source shader graph and original chosen frames. Run a 3×3 lighting comparison only after source view/camera/exposure and audio context are fixed; currently one remembered favorite was underlight + rim, second remains unknown.
+
 ## DF-01 · Drop Flow / State-carried temporal flow
 
 **Evidence:** artist-recalled + source-observed. Lifetime subchain `MECHANISM_TESTED`; whole visual and GPU simulation **not approved**.
