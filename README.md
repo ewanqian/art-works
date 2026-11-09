@@ -39,6 +39,14 @@ This is a **public** repository. No private client assets, unlicensed media/code
 
 以上为作者口述及研究交接，未确认的 Blender 节点、工程版本与交付情况不得自动升为已发表作品事实。
 
+## 2026-11-09 艺术复利与 Blender 节点资产库（待审核）
+
+- [Artworks System 01 — 从原工程到可演奏的完整作品](plans/2026-11-09-artworks-compounding-system.md) — 区分原作、组件、Runtime、作品编排与正式呈现。
+- [Blender Node / Material / Camera 资产目录与清洁工程验收](assets/README.md)；[22 个候选组件机器可读索引](assets/artworks-component-registry.v1.json) — **均尚未包装交付为独立 .blend 资产**。
+- [源工程验收 Skill](.agents/skills/artwork-evidence-review/SKILL.md)、[组件提取 Skill](.agents/skills/blender-component-harvesting/SKILL.md)、[创作风格记忆 Skill](.agents/skills/artwork-style-memory/SKILL.md)、[九方案对比 Skill](.agents/skills/nine-way-visual-audition/SKILL.md)、[完整作品编排 Skill](.agents/skills/artwork-composition-architect/SKILL.md)。
+- [Blender 私有资产侦测与选择性导出脚本](tools/blender_asset_scout.py) — 需在 Blender 本机运行，**仅执行代码静态编写、未在实机执行或验证导出**；默认仅查阅，明确授权后才可将选择的 group 导出到新的私有 .blend。
+- [本地研究成果审阅准则](references/2026-11-09-local-research-quality-check.md)。
+
 ## Initial cross-repository index
 
 - 《无需进一步输入 / No Further Input Required》 — see `works/no-further-input-required.md` (artistic identity); original implementation remains separate.
