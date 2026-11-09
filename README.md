@@ -35,6 +35,8 @@ This is a **public** repository. No private client assets, unlicensed media/code
 - [可供 Agent 查询的创作偏好 JSON](lineages/2026-11-09-creative-preferences.json) — 情境性喜好与明确避免的错误归因。
 - [Drop Flow Simulation Zone → GPU 技术交接](plans/2026-11-09-simulation-zone-gpu-local-agent-brief.md) / [REACTOR-Ableton-二砂恢复交接](plans/2026-11-09-reactor-audio-ersha-local-agent-followup.md) — 本地代理只读取证、实际资产发现与私密素材保护。
 
+- [Drop Flow 源工程恢复核验 01](lineages/2026-11-09-drop-flow-source-recovery-checkpoint-01.md) — 实际状态链取证、局部 GPU 数值对照与旧复现偏差；完整工程与配方保留本地私有目录。
+
 以上为作者口述及研究交接，未确认的 Blender 节点、工程版本与交付情况不得自动升为已发表作品事实。
 
 ## Initial cross-repository index
