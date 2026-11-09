@@ -56,6 +56,8 @@
 
 先阅读已有 `performable-music` 与 Stage Casting 的构建协议；之前的 `SPATIAL_GRAIN`、Show Score 等研究是参考，不等于当前 4×6 工程已经完成。
 
+**新定位的 GitHub 研究入口（实际工程仍待本机确认）**：[2026-11-09 Club audition gate](https://github.com/ewanqian/performable-music/blob/main/research/music-production/2026-11-09-club-audition-gate.md) 记录四个**研究试听方向**：Hypnotic / minimal techno、Broken beat / percussive electronica、Dub techno / spatial minimalism、Micro-edited club / IDM；这里写的是下一阶段试听标准，**不能直接认定就是作者口述中另一台 Mac 正在跑的四组、每组六首**。另可对照 [Metal / lighting reuse plan](https://github.com/ewanqian/performable-music/blob/main/research/visual-runtime/2026-11-09-metal-lighting-reuse.md)，但该文是 Mac Metal 的计划，不是已验收运行记录。
+
 ## 4. 二砂 / Metashape / 点云素材抢救
 
 按 SYSTEM/ERSHA/二砂/郑州工厂/Metashape/Factory/Scan/Point Cloud/PLY/FBX/OBJ/Alembic/Vertex Color 等进行多位置**只读索引**，包含 Windows 本地、NAS、用户指定 Mac 工作目录、旧硬盘归档和项目版本控制历史。
