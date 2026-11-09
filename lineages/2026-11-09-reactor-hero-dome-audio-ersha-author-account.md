@@ -45,6 +45,8 @@ REACTOR 附近的制作阶段，作者开始尝试让 Agent 在本地 Ableton Li
 
 已存档的 [Performable Music 研究](https://github.com/ewanqian/portfolio/blob/main/research/performable-music/README.md) 和 [REACTOR BPM System 文章](https://github.com/ewanqian/portfolio/blob/main/docs/journal/reactor-bpm-system-2026.md) 可作为背景，但它们不等于这些 Ableton 工程已经被找回。
 
+截至该日另有一份公开的 [Club 音乐试听门槛](https://github.com/ewanqian/performable-music/blob/main/research/music-production/2026-11-09-club-audition-gate.md)，列出 Hypnotic/minimal techno、Broken beat/percussive electronica、Dub techno/spatial minimalism、Micro-edited club/IDM 四种**建议试听**的方向，以及 16 小节、60–90 秒音频验收规则。该文标记为研究方案，不能代替 Mac 上 4×6 文件的真实目录与最终试听选择。
+
 ## 4. 二砂点云影像：从后向前穿行的空间镜头
 
 当 HERO DOME 的声音与视觉测试进入时间压力阶段，作者重新使用了旧的 **SYSTEM × ERSHA / 二砂工厂点云影像**：其中已有一条或多条沿空间纵深快速推进的镜头，从远处/后方朝前穿过厂房。它直接提供了强烈的运动和空间尺度感，能迅速进入新屏幕测试。
