@@ -28,6 +28,10 @@
 
 Original commercial assets, complete shader recipes, unlicensed audio and confidential point-cloud sources stay private. Preserve other established priority and performance deadlines; this register does not assert a completed GPU engine or restored project files.
 
+## 2026-11-09 艺术复利下一步
+
+[Artworks System 01](./2026-11-09-artworks-compounding-system.md) 和 [22 项候选组件](../assets/artworks-component-registry.v1.json) 是从艺术源记录向工具资产转移的计划，**不是已经建成的 Blender Asset Browser 库**。先用真实寿命节点做一个独立 .blend wrapper 验证，再按原文件恢复 REACTOR Curve Reveal；跨项目音乐输入适配器在完全明确时间语义后再实施。GPU Runtime 仍沿用 performable-music 既有技术工程，不为此创建竞争性音乐/演出仓库。未来大型作品的研究仅做概念与必要条件归档，不能挤占已在推进的 2026-12-03 现场 P0 验证。
+
 ## Review checkpoint
 
 At each meaningful milestone: date; work/version; what actually exists; what is still proposed; links to source and evidence; music/visual critique; one next selected experiment. Do not turn a plan into a completion label.
