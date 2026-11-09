@@ -37,6 +37,8 @@ This is a **public** repository. No private client assets, unlicensed media/code
 
 - [Drop Flow 源工程恢复核验 01](lineages/2026-11-09-drop-flow-source-recovery-checkpoint-01.md) — 实际状态链取证、局部 GPU 数值对照与旧复现偏差；完整工程与配方保留本地私有目录。
 
+- [REACTOR / HERO DOME 源工程恢复核验 02](lineages/2026-11-09-reactor-hero-source-recovery-checkpoint-02.md) — 实际 Reveal、材质/合成资产及中性验证；最终入选渲染仍待绑定，详细源证据保留本地。
+
 以上为作者口述及研究交接，未确认的 Blender 节点、工程版本与交付情况不得自动升为已发表作品事实。
 
 ## Initial cross-repository index
