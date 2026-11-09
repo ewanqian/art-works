@@ -5,6 +5,18 @@
 > **作者需求：** 将已有 Blender 创作逻辑转换成在 Windows RTX / Apple Silicon Mac 上原生运行的 GPU visual instrument，不接受只模仿结果的通用粒子特效。  
 > **本报告与正在运行的本地 Agent 工作并行**。不访问、不改动它的 Windows/NAS/Mac 源文件。本地工程的真实节点连接及已有效运行的演出状态必须以后续证据为准。
 
+## 2026-11-09 源工程检查点反馈：对本报告状态设计的必要修正
+
+最新的 [Drop Flow 源工程恢复 Checkpoint 01](https://github.com/ewanqian/art-works/blob/lineage-oral-history-blender-gpu-20261109/lineages/2026-11-09-drop-flow-source-recovery-checkpoint-01.md) 已在 Blender 原件中验证寿命子链与 GPU 的局部数值一致性。该证据只覆盖此子链，未证明完整模拟或画面等价，但应立即更正后文所有通用“粒子模型”假设：
+
+1. **Simulation Zone 声明的 state item ≠ 每帧真正变化的几何属性。** 原作品实际持续状态需由真实几何和有效连线提取，不能按 six slots 生成 six GPU fields。
+2. **不要虚构 velocity/acceleration 积分器。** 下方 `position/velocity/age/life` 是候选 ABI 范例，不代表源工程都存在这些字段。移植需以可读的自定义 Geometry Attribute、原始 Curl/Time/Noise 链和实际出生/删除/保留规则为准。
+3. **保留作者原工程的 tick-based 更新。** 寿命局部子组的当前已验证条件为按 tick 推进；在 24/60fps 的受控夹具里相同 tick 有相同数值。此事实不能外推为整套现场系统 FPS 无关，也**不能自动把该规则改写为 `delta_time_s` 更新**。先做 `SOURCE_TICK_COMPAT` 完全复现；可选 `REALTIME_DT` 是未来经作者选择的创作性新模式，必须另做对照。
+4. **音频控制驱动要辨源。** 有密集采样曲线和同源多个出口并不证明多个独立频段或真正的 beat detector；只可称 `baked-like`，完整音频 Bake 来源另证。
+5. **482 个对照 ≠ 482 个独立源演出场景。** 检验的是有限点数、边界条件和连续 tick 的局部机制，不涵盖源出生拓扑、Curl、Wave、实例、原摄像机、音频一段完整驱动和渲染外观。
+
+此修订只包含脱敏研究结论。完整工程节点、原始曲线、精细参数与商业素材继续保留在本地私有研究目录，不能从本报告反向推断源工程配方。
+
 ## 一、结论
 
 不存在已证明可直接、完整地将任意 Blender Geometry Nodes + Simulation Zone 项目“一键导出为 Metal/CUDA 的实时引擎”的可靠通用方案。Blender 可使用 GPU 渲染 ≠ Geometry Nodes 及 Simulation Zone 逐帧模拟已完全在 GPU 执行。
