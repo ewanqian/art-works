@@ -28,6 +28,15 @@ Do **not** classify an idea as a finished work because an agent generated a prom
 
 This is a **public** repository. No private client assets, unlicensed media/code, credentials, private messages, raw personal information, or private-performance source exports. An external artist's method is a study reference, not authorization to copy their materials. Keep fact, inference and future creative intention separate.
 
+## 2026-11-09 作者口述：从 Blender 到实时视觉
+
+- [TIMER → Drop Flow → KASHIWA → NFIR → SRE / Entropy](lineages/2026-11-09-timer-drop-flow-realtime-author-account.md) — 作者一手创作史料；区分旧作品、未完成探索与代码机制。
+- [Entropy → REACTOR → HERO DOME / Ableton / 二砂](lineages/2026-11-09-reactor-hero-dome-audio-ersha-author-account.md) — 模型 Reveal、线框曲线、Shader、音乐质量及点云复用。
+- [可供 Agent 查询的创作偏好 JSON](lineages/2026-11-09-creative-preferences.json) — 情境性喜好与明确避免的错误归因。
+- [Drop Flow Simulation Zone → GPU 技术交接](plans/2026-11-09-simulation-zone-gpu-local-agent-brief.md) / [REACTOR-Ableton-二砂恢复交接](plans/2026-11-09-reactor-audio-ersha-local-agent-followup.md) — 本地代理只读取证、实际资产发现与私密素材保护。
+
+以上为作者口述及研究交接，未确认的 Blender 节点、工程版本与交付情况不得自动升为已发表作品事实。
+
 ## Initial cross-repository index
 
 - 《无需进一步输入 / No Further Input Required》 — see `works/no-further-input-required.md` (artistic identity); original implementation remains separate.
