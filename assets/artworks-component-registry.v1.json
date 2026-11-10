@@ -1,0 +1,479 @@
+{
+  "schema": "artworks-component-registry/v1",
+  "created": "2026-11-09",
+  "purpose": "Candidate extraction registry; source nodes are never presumed packaged or artist-approved",
+  "canonical": {
+    "artistic_and_provenance": "ewanqian/art-works",
+    "existing_project_source": "local project .blend or project-specific private repo",
+    "live_runtime_source": "ewanqian/performable-music",
+    "rendered_public_evidence": "ewanqian/portfolio"
+  },
+  "stages": [
+    "PROPOSED",
+    "ARTIST_RECALLED",
+    "SOURCE_OBSERVED_PARTIAL",
+    "SOURCE_OBSERVED",
+    "MECHANISM_TESTED_LOCAL",
+    "PACKAGED",
+    "CLEAN_SCENE_TESTED",
+    "ARTIST_SELECTED"
+  ],
+  "privacy_policy": "Store only sanitized IDs and method descriptions in this public registry. Do not push full curves, original .blend, proprietary node graph dumps, sound sources, customer geometry, motion capture or hidden paths.",
+  "entry_count": 22,
+  "entries": [
+    {
+      "id": "DF-LIFETIME-001",
+      "work": "Drop Flow",
+      "name": "LT / r0 lifetime and deletion",
+      "kind": "GEOMETRY_NODE_GROUP",
+      "evidence": "MECHANISM_TESTED_LOCAL",
+      "status": "NOT_EXTRACTED",
+      "packaging": "GN_SUBGROUP_WITH_TEST_WRAPPER",
+      "inputs": [
+        "tick",
+        "geometry",
+        "lifetime_control"
+      ],
+      "source_ids": [
+        "DF-SRC-001"
+      ],
+      "use_case": "One stable lifetime operator for future stateful simulations",
+      "limits": "482 GPU lifetime checks only; must not claim full work parity. Original tick semantics.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "DF-BIRTH-001",
+      "work": "Drop Flow",
+      "name": "initial geometry + per-frame birth",
+      "kind": "GEOMETRY_NODE_GROUP",
+      "evidence": "SOURCE_OBSERVED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "GN_MODIFIER_WRAPPER",
+      "inputs": [
+        "initial_geometry",
+        "source_clock",
+        "birth_control"
+      ],
+      "source_ids": [
+        "DF-SRC-001",
+        "DF-SRC-002"
+      ],
+      "use_case": "Preserve actual per-frame emission topology",
+      "limits": "Output geometry and timing equivalence not yet tested.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "DF-FEEDBACK-001",
+      "work": "Drop Flow",
+      "name": "Simulation Zone state feedback",
+      "kind": "GEOMETRY_NODE_GROUP",
+      "evidence": "SOURCE_OBSERVED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "GN_MODIFIER_WRAPPER",
+      "inputs": [
+        "source_tick",
+        "geometry_state",
+        "control_channels"
+      ],
+      "source_ids": [
+        "DF-SRC-001"
+      ],
+      "use_case": "Carry point state over frames",
+      "limits": "Simulation Zone is modifier-context only; do not claim Tool asset. Six declared state slots are not six evolving particle fields.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "DF-CURL-001",
+      "work": "Drop Flow",
+      "name": "field displacement / Curl",
+      "kind": "GEOMETRY_NODE_GROUP",
+      "evidence": "SOURCE_OBSERVED_PARTIAL",
+      "status": "NOT_EXTRACTED",
+      "packaging": "GN_SUBGROUP",
+      "inputs": [
+        "geometry",
+        "source_time",
+        "field_inputs"
+      ],
+      "source_ids": [
+        "DF-SRC-001"
+      ],
+      "use_case": "Recover original movement instead of substitute random/noise fields",
+      "limits": "Domain, spatial scale and noise identity not yet proved GPU-equivalent.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "DF-WAVE-001",
+      "work": "Drop Flow",
+      "name": "Wave, density and life gate",
+      "kind": "GEOMETRY_NODE_GROUP",
+      "evidence": "SOURCE_OBSERVED_PARTIAL",
+      "status": "NOT_EXTRACTED",
+      "packaging": "GN_SUBGROUP",
+      "inputs": [
+        "geometry",
+        "control_values",
+        "wave_params"
+      ],
+      "source_ids": [
+        "DF-SRC-001"
+      ],
+      "use_case": "Recover actual selective visibility/removal behavior",
+      "limits": "Precise gate and geometry semantics to verify against source.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "DF-AUDIO-001",
+      "work": "Drop Flow",
+      "name": "Sampled music control adapter",
+      "kind": "CONTROL_CURVE",
+      "evidence": "SOURCE_OBSERVED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "ACTION_OR_FCURVE_PLUS_ADAPTER",
+      "inputs": [
+        "sampled_curve_A",
+        "sampled_curve_B",
+        "source_time",
+        "manual_override"
+      ],
+      "source_ids": [
+        "DF-SRC-001",
+        "DF-SRC-002"
+      ],
+      "use_case": "Change music without rewriting the simulation",
+      "limits": "Sampling looks baked-like; no proven original audio bands or real beat detector. Original curves remain private.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "TMR-SCREEN-001",
+      "work": "TIMER",
+      "name": "Overhead square to wide projection",
+      "kind": "SCENE_RIG",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "SCENE_OR_COLLECTION_ASSET",
+      "inputs": [
+        "source_square",
+        "target_aspect",
+        "camera"
+      ],
+      "source_ids": [],
+      "use_case": "Reframe authored clock world for horizontal stage screens",
+      "limits": "Not a simple crop. Actual projection rig not source verified.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "TMR-CONTROL-001",
+      "work": "TIMER",
+      "name": "Timeline + audio-bake control layering",
+      "kind": "ACTION_CURVE",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "ACTION_PLUS_ADAPTER",
+      "inputs": [
+        "time",
+        "baked_like_curve",
+        "manual_keys"
+      ],
+      "source_ids": [],
+      "use_case": "Separate authored animation from swappable music",
+      "limits": "Determine which individual tracks were manual vs baked from source.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "TMR-FLOW2D-001",
+      "work": "TIMER → Drop Flow",
+      "name": "Left-to-right screen-space flow",
+      "kind": "GEOMETRY_NODE_GROUP",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "GN_MODIFIER",
+      "inputs": [
+        "screen_plane",
+        "clock",
+        "density"
+      ],
+      "source_ids": [],
+      "use_case": "Early 2D flow reuse without 3D complexity",
+      "limits": "Must find correct historical intermediate file.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "KAS-AMB-001",
+      "work": "KASHIWA Amb",
+      "name": "Romantic flow mapping",
+      "kind": "VARIANT_RECIPE",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "SCENE_PLUS_CONTROL_PRESET",
+      "inputs": [
+        "core_group",
+        "music_curve",
+        "camera"
+      ],
+      "source_ids": [],
+      "use_case": "Low-fragmentation lyrical flow variant of shared base",
+      "limits": "Not necessarily a separable standalone node group; needs original A/B comparison.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "KAS-ICE-001",
+      "work": "KASHIWA Ice",
+      "name": "Tight rhythm mapping",
+      "kind": "VARIANT_RECIPE",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "SCENE_PLUS_CONTROL_PRESET",
+      "inputs": [
+        "core_group",
+        "music_curve",
+        "camera"
+      ],
+      "source_ids": [],
+      "use_case": "Musically sharply articulated branch",
+      "limits": "Beat detection not established, and does not imply generic kick detector.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "NFIR-GEN-001",
+      "work": "NFIR",
+      "name": "Rule-based independent generator",
+      "kind": "GEOMETRY_NODE_GROUP",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "GN_MODIFIER_WRAPPER",
+      "inputs": [
+        "frame",
+        "geometry_sides",
+        "growth"
+      ],
+      "source_ids": [],
+      "use_case": "Simple stable generative grammar",
+      "limits": "Separate original version and later FINAL_LOOP.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "NFIR-VIEW-001",
+      "work": "NFIR",
+      "name": "Human observation / polygon camera",
+      "kind": "SCENE_RIG",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "SCENE_WITH_CAMERA_AND_ACTION",
+      "inputs": [
+        "polygon_sides",
+        "orientation",
+        "camera"
+      ],
+      "source_ids": [],
+      "use_case": "Deliberate manual searching for striking overlaps",
+      "limits": "Not autonomous AI; may depend on mouse-recorded performance.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "ENT-REVEAL-001",
+      "work": "Entropy",
+      "name": "Machine topology wire reveal",
+      "kind": "SCENE_RIG",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "SCENE_WITH_ANIMATED_LINES",
+      "inputs": [
+        "topology",
+        "reveal_phase",
+        "camera"
+      ],
+      "source_ids": [],
+      "use_case": "Build-up of coherent mechanical structure",
+      "limits": "Which delivered version was actually shown needs evidence.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "RCT-CURVES-001",
+      "work": "REACTOR",
+      "name": "Mesh topology to Curves reveal",
+      "kind": "SCENE_RIG",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "CURVE_OBJECT_OR_GN_WRAPPER",
+      "inputs": [
+        "model",
+        "reveal_phase",
+        "highlight"
+      ],
+      "source_ids": [],
+      "use_case": "Fast structural reveal and author-directed rotation",
+      "limits": "Actual selected source to recover, not reconstruct from memory.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "RCT-HIGHLIGHT-001",
+      "work": "REACTOR",
+      "name": "Curves Shader directional highlight",
+      "kind": "MATERIAL",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "MATERIAL_ASSET",
+      "inputs": [
+        "scan_phase",
+        "emission",
+        "light_mask"
+      ],
+      "source_ids": [],
+      "use_case": "Add time and hierarchy to geometric reveal",
+      "limits": "Exact selected node graph and private recipe not yet verified.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "HERO-WAVE-001",
+      "work": "HERO DOME",
+      "name": "Wireframe / Wave / ColorRamp material",
+      "kind": "MATERIAL",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "MATERIAL_ASSET",
+      "inputs": [
+        "wave_position",
+        "ramp",
+        "emission"
+      ],
+      "source_ids": [],
+      "use_case": "Structured scan and moving illumination on very wide canvas",
+      "limits": "Do not assume four states mean four physical screens.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "HERO-COMP-001",
+      "work": "HERO DOME",
+      "name": "Noise and glow compositor",
+      "kind": "COMPOSITOR_NODE_GROUP",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "COMPOSITOR_NODE_ASSET",
+      "inputs": [
+        "noise_amount",
+        "glow",
+        "base_image"
+      ],
+      "source_ids": [],
+      "use_case": "Finishing pass for high-quality authored material",
+      "limits": "No claimed exact anti-banding solution or verified node graph.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "ERSHA-COLOR-001",
+      "work": "SYSTEM × ERSHA",
+      "name": "Metashape color attribute material",
+      "kind": "MATERIAL",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "MATERIAL_ASSET",
+      "inputs": [
+        "color_attribute",
+        "contrast"
+      ],
+      "source_ids": [],
+      "use_case": "Reusable vertex/attribute colour shading",
+      "limits": "Check actual source attribute and film/scanning rights.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "ERSHA-FLY-001",
+      "work": "SYSTEM × ERSHA",
+      "name": "Factory longitudinal camera travel",
+      "kind": "SCENE_RIG",
+      "evidence": "ARTIST_RECALLED",
+      "status": "NOT_EXTRACTED",
+      "packaging": "CAMERA_ACTION",
+      "inputs": [
+        "camera_path",
+        "time_remap"
+      ],
+      "source_ids": [],
+      "use_case": "Camera travel in point-cloud factory model",
+      "limits": "Source backups and license status unknown.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "MOCAP-ECHO-001",
+      "work": "Drop Flow × Motion Capture",
+      "name": "Time-offset dancer echo",
+      "kind": "PROPOSAL",
+      "evidence": "PROPOSED",
+      "status": "NO_ASSET_YET",
+      "packaging": "NO_EXPORT",
+      "inputs": [
+        "authorized_bvh",
+        "time_offsets"
+      ],
+      "source_ids": [],
+      "use_case": "Potential future body-time spatial work",
+      "limits": "Not delivered; rights and rig retiming gate.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    },
+    {
+      "id": "COMMON-CTRL-001",
+      "work": "Shared",
+      "name": "Music/Show Score input adapter",
+      "kind": "NEW_ORIGINAL_COMPONENT",
+      "evidence": "PROPOSED",
+      "status": "NO_ASSET_YET",
+      "packaging": "GENERIC_ADAPTER",
+      "inputs": [
+        "source_mode",
+        "curve_lut",
+        "audio_features",
+        "bpm",
+        "osc"
+      ],
+      "source_ids": [],
+      "use_case": "Expose same authored visual core to different music or live controls",
+      "limits": "New design contract, not an original historical Blender node or currently tested adapter.",
+      "rights": "PRIVATE_OR_UNKNOWN",
+      "source_path": "LOCAL_PRIVATE_MANIFEST",
+      "approved_by_artist": false
+    }
+  ]
+}
