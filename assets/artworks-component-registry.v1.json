@@ -334,7 +334,23 @@
       "limits": "Actual selected source to recover, not reconstruct from memory.",
       "rights": "PRIVATE_OR_UNKNOWN",
       "source_path": "LOCAL_PRIVATE_MANIFEST",
-      "approved_by_artist": false
+      "approved_by_artist": false,
+      "evidence_notes": [
+        {
+          "recorded_at": "2026-11-17",
+          "kind": "SOURCE_RECOVERY_CHECKPOINT_RECONCILIATION",
+          "source_checkpoint_url": "https://github.com/ewanqian/art-works/blob/3542109d96376680aa3841bc627cb7fba6e94bdb/lineages/2026-11-09-reactor-hero-source-recovery-checkpoint-02.md",
+          "source_checkpoint_commit": "3542109d96376680aa3841bc627cb7fba6e94bdb",
+          "source_ids": [
+            "RH-SRC-002",
+            "RH-SRC-006"
+          ],
+          "reported_finding": "Actual Geometry Nodes Reveal and a separately existing Curve reveal driver were found. Source reveal assets were extracted and reused in a neutral study; the two mechanisms must remain distinguishable.",
+          "candidate_limit": "The checkpoint establishes the reveal family, not which exact exported datablock/package implements this registry candidate, nor full performance timing or final-frame equivalence.",
+          "reported_verification_scope": "The checkpoint reports local private extraction, source/derived graph and animation checks, fresh-factory Append, standalone opening, and four nonempty geometry/pixel roundtrips. This reconciliation did not rerun Blender or inspect the private asset files.",
+          "readiness_limit": "Final authored render selection, complete source-scene parity, cross-version compatibility, publishable asset rights and an exact registry-ID-to-private-package mapping remain unverified. Historical evidence/status fields are retained pending that mapping; this note supersedes treating the source mechanism as recollection alone."
+        }
+      ]
     },
     {
       "id": "RCT-HIGHLIGHT-001",
@@ -354,7 +370,23 @@
       "limits": "Exact selected node graph and private recipe not yet verified.",
       "rights": "PRIVATE_OR_UNKNOWN",
       "source_path": "LOCAL_PRIVATE_MANIFEST",
-      "approved_by_artist": false
+      "approved_by_artist": false,
+      "evidence_notes": [
+        {
+          "recorded_at": "2026-11-17",
+          "kind": "SOURCE_RECOVERY_CHECKPOINT_RECONCILIATION",
+          "source_checkpoint_url": "https://github.com/ewanqian/art-works/blob/3542109d96376680aa3841bc627cb7fba6e94bdb/lineages/2026-11-09-reactor-hero-source-recovery-checkpoint-02.md",
+          "source_checkpoint_commit": "3542109d96376680aa3841bc627cb7fba6e94bdb",
+          "source_ids": [
+            "RH-SRC-004",
+            "RH-SRC-005"
+          ],
+          "reported_finding": "Source material/highlight and lighting animation mechanisms were found and extracted. Some authored line materials had changed from the generator's emission-only setup to light-reactive materials while a separate local emission path remained.",
+          "candidate_limit": "The checkpoint does not identify this candidate's exact directional-highlight node group or private package by registry ID. Do not regenerate only from the original model script and claim artist-source parity.",
+          "reported_verification_scope": "The checkpoint reports local private extraction, source/derived graph and animation checks, fresh-factory Append, standalone opening, and four nonempty geometry/pixel roundtrips. This reconciliation did not rerun Blender or inspect the private asset files.",
+          "readiness_limit": "Final authored render selection, complete source-scene parity, cross-version compatibility, publishable asset rights and an exact registry-ID-to-private-package mapping remain unverified. Historical evidence/status fields are retained pending that mapping; this note supersedes treating the source mechanism as recollection alone."
+        }
+      ]
     },
     {
       "id": "HERO-WAVE-001",
@@ -374,7 +406,23 @@
       "limits": "Do not assume four states mean four physical screens.",
       "rights": "PRIVATE_OR_UNKNOWN",
       "source_path": "LOCAL_PRIVATE_MANIFEST",
-      "approved_by_artist": false
+      "approved_by_artist": false,
+      "evidence_notes": [
+        {
+          "recorded_at": "2026-11-17",
+          "kind": "SOURCE_RECOVERY_CHECKPOINT_RECONCILIATION",
+          "source_checkpoint_url": "https://github.com/ewanqian/art-works/blob/3542109d96376680aa3841bc627cb7fba6e94bdb/lineages/2026-11-09-reactor-hero-source-recovery-checkpoint-02.md",
+          "source_checkpoint_commit": "3542109d96376680aa3841bc627cb7fba6e94bdb",
+          "source_ids": [
+            "RH-SRC-004",
+            "RH-SRC-005"
+          ],
+          "reported_finding": "Actual Wireframe / Wave / ColorRamp, spatial highlight control and animated lighting were present in source scenes and included in the reported private material extraction.",
+          "candidate_limit": "The four-stage division and final accepted Dome film were not resolved. Component-specific package identity and public distribution rights remain unverified.",
+          "reported_verification_scope": "The checkpoint reports local private extraction, source/derived graph and animation checks, fresh-factory Append, standalone opening, and four nonempty geometry/pixel roundtrips. This reconciliation did not rerun Blender or inspect the private asset files.",
+          "readiness_limit": "Final authored render selection, complete source-scene parity, cross-version compatibility, publishable asset rights and an exact registry-ID-to-private-package mapping remain unverified. Historical evidence/status fields are retained pending that mapping; this note supersedes treating the source mechanism as recollection alone."
+        }
+      ]
     },
     {
       "id": "HERO-COMP-001",
@@ -394,7 +442,23 @@
       "limits": "No claimed exact anti-banding solution or verified node graph.",
       "rights": "PRIVATE_OR_UNKNOWN",
       "source_path": "LOCAL_PRIVATE_MANIFEST",
-      "approved_by_artist": false
+      "approved_by_artist": false,
+      "evidence_notes": [
+        {
+          "recorded_at": "2026-11-17",
+          "kind": "SOURCE_RECOVERY_CHECKPOINT_RECONCILIATION",
+          "source_checkpoint_url": "https://github.com/ewanqian/art-works/blob/3542109d96376680aa3841bc627cb7fba6e94bdb/lineages/2026-11-09-reactor-hero-source-recovery-checkpoint-02.md",
+          "source_checkpoint_commit": "3542109d96376680aa3841bc627cb7fba6e94bdb",
+          "source_ids": [
+            "RH-SRC-004",
+            "RH-SRC-005"
+          ],
+          "reported_finding": "Noise was confirmed in the final compositor output chain; the source compositor was extracted and included in neutral-scene roundtrip checks.",
+          "candidate_limit": "The checkpoint does not establish this candidate's exact glow implementation, a universal anti-banding result, or the final accepted render. Do not upgrade the combined Noise-and-glow candidate to fully verified from Noise evidence alone.",
+          "reported_verification_scope": "The checkpoint reports local private extraction, source/derived graph and animation checks, fresh-factory Append, standalone opening, and four nonempty geometry/pixel roundtrips. This reconciliation did not rerun Blender or inspect the private asset files.",
+          "readiness_limit": "Final authored render selection, complete source-scene parity, cross-version compatibility, publishable asset rights and an exact registry-ID-to-private-package mapping remain unverified. Historical evidence/status fields are retained pending that mapping; this note supersedes treating the source mechanism as recollection alone."
+        }
+      ]
     },
     {
       "id": "ERSHA-COLOR-001",
@@ -477,3 +541,4 @@
     }
   ]
 }
+
