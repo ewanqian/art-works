@@ -36,26 +36,30 @@
 
 ## 现场影像与来源
 
-作者于 2026-11-21 补充四张现场 JPEG，均为 1080 像素宽（高度见下表）。现有个人 [portfolio](https://github.com/ewanqian/portfolio) 仓库已保存其中**第 1 与第 4 张画面**的 WebP 版本；以下直接引用既有媒体，不重复存储。新提供的 4 张 JPEG 的原始文件名与 SHA-256 记在下表，以区分画面相同的重新编码版本与未入库的源文件。
+作者于 2026-11-21 补充四张现场 JPEG，均为 1080 像素宽（高度见下表）。**四张未经裁剪、未经重新编码的 JPEG 原件已全部存放在本仓库**的 [`assets/one-glance-ten-thousand-2023/`](../assets/one-glance-ten-thousand-2023/)；其字节数和 Git 对象哈希已逐项核验。现有个人 [portfolio](https://github.com/ewanqian/portfolio) 仓库另有第 1 与第 4 张画面的 WebP 重新编码版本。原始上传文件名与 SHA-256 见下表。
 
 **图 1｜桥栏、民居与台阶环境**
 
-![桥栏、民居与青石台阶上的投影](https://raw.githubusercontent.com/ewanqian/portfolio/main/assets/raw-library/glance-thousand-anchang-projection.webp)
+![桥栏、民居与青石台阶上的投影](../assets/one-glance-ten-thousand-2023/01-bridge-stairs-wide.jpg)
 
-**图 2｜桥面投影正面特写** — 此次新提供，JPEG 原件尚未上传 GitHub；见下方原件清单。
+**图 2｜桥面投影正面特写**
 
-**图 3｜桥面投影斜向特写** — 此次新提供，JPEG 原件尚未上传 GitHub；见下方原件清单。
+![桥面生成线条与花形正面细节](../assets/one-glance-ten-thousand-2023/02-projection-detail-front.jpg)
+
+**图 3｜桥面投影斜向特写**
+
+![桥面线状生成结构斜向细节](../assets/one-glance-ten-thousand-2023/03-projection-detail-oblique.jpg)
 
 **图 4｜台阶与桥面投影全景**
 
-![古桥台阶与桥面的现场投影全景](https://raw.githubusercontent.com/ewanqian/portfolio/main/assets/raw-library/glance-thousand-anchang-bridge-projection.webp)
+![古桥台阶与桥面的现场投影全景](../assets/one-glance-ten-thousand-2023/04-staircase-full-installation.jpg)
 
 | 图片 | 上传文件名 | 尺寸 | SHA-256 | GitHub 状态 |
 | --- | --- | --- | --- | --- |
-| 01 | `8cbee9397244f9482882d8a7d48657f4.jpg` | 1080 × 1620 | `6aad12daa7865d746a8622e818ce27dc02e3a9f5fe8b0fe7d52ec21b4d736304` | 已有同画面 WebP |
-| 02 | `da631f34778c50c4da6091797225ea16.jpg` | 1080 × 720 | `b25a3ce6357cfff604df432c5c97a2f21a1fdbc13a0ecedf3d149661198131df` | **原件待同步** |
-| 03 | `c7da703c0b8b1d1ecf57ac5e79895819.jpg` | 1080 × 810 | `67c63ee275010dd49f0cd312b69cb325b620dee8313e1417d0d4a8889d46b189` | **原件待同步** |
-| 04 | `e90a2bce3a4754ccbd7b616a5c545847.jpg` | 1080 × 810 | `e53ceb46c832f7749933745e2d3fe98fa8137e7291741d5fd85e98cb2d6f1a1b` | 已有同画面 WebP |
+| 01 | `8cbee9397244f9482882d8a7d48657f4.jpg` | 1080 × 1620 | `6aad12daa7865d746a8622e818ce27dc02e3a9f5fe8b0fe7d52ec21b4d736304` | 已归档 JPEG 原件；另有 WebP |
+| 02 | `da631f34778c50c4da6091797225ea16.jpg` | 1080 × 720 | `b25a3ce6357cfff604df432c5c97a2f21a1fdbc13a0ecedf3d149661198131df` | **已归档 JPEG 原件** |
+| 03 | `c7da703c0b8b1d1ecf57ac5e79895819.jpg` | 1080 × 810 | `67c63ee275010dd49f0cd312b69cb325b620dee8313e1417d0d4a8889d46b189` | **已归档 JPEG 原件** |
+| 04 | `e90a2bce3a4754ccbd7b616a5c545847.jpg` | 1080 × 810 | `e53ceb46c832f7749933745e2d3fe98fa8137e7291741d5fd85e98cb2d6f1a1b` | 已归档 JPEG 原件；另有 WebP |
 
 这份文档是**作品观念的长期记录**，不是重新制作一版现场作品，也不应由此推断未提供的设备参数、生成软件、互动形式、摄影作者、媒体授权或开幕日期。
 
