@@ -36,7 +36,7 @@
 
 ## 现场影像与来源
 
-作者于 2026-11-21 补充四张现场 JPEG，均为 1080 像素宽（高度见下表）。**四张未经裁剪、未经重新编码的 JPEG 原件已全部存放在本仓库**的 [`assets/one-glance-ten-thousand-2023/`](../assets/one-glance-ten-thousand-2023/)；其字节数和 Git 对象哈希已逐项核验。现有个人 [portfolio](https://github.com/ewanqian/portfolio) 仓库另有第 1 与第 4 张画面的 WebP 重新编码版本。原始上传文件名与 SHA-256 见下表。
+作者于 2026-11-21 补充四张现场 JPEG，均为 1080 像素宽（高度见下表）。**四张未经裁剪、未经重新编码的 JPEG 原件已全部存放在本仓库**的 [`assets/one-glance-ten-thousand-2023/`](../assets/one-glance-ten-thousand-2023/)；其字节数和 Git 对象哈希已逐项核验。现有个人 [portfolio](https://github.com/ewanqian/portfolio) 仓库另有第 1 与第 4 张画面的 WebP 重新编码版本。原始上传文件名与 SHA-256 见下表，另见[媒体完整性清单](../assets/one-glance-ten-thousand-2023/manifest.json)。
 
 **图 1｜桥栏、民居与台阶环境**
 
