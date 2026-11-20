@@ -1,0 +1,66 @@
+{
+  "schema": "ewanqian.artwork-media-archive.v1",
+  "work_id": "one-glance-ten-thousand-2023",
+  "title": "一眼万千",
+  "artist": "钱誉文 / Ewan Qian",
+  "author_provided_creation_or_record_date": "2023-01-28",
+  "archive_date": "2026-11-21",
+  "evidence_origin": "Four JPEG photographs provided by the artist in the 2026-11-21 conversation",
+  "original_files_preserved_without_reencoding": true,
+  "photographic_credit": "not independently confirmed",
+  "republication_license": "not established; do not infer a license from public repository access",
+  "media": [
+    {
+      "order": 1,
+      "path": "01-bridge-stairs-wide.jpg",
+      "original_uploaded_name": "8cbee9397244f9482882d8a7d48657f4.jpg",
+      "pixels": [
+        1080,
+        1620
+      ],
+      "bytes": 155861,
+      "sha256": "6aad12daa7865d746a8622e818ce27dc02e3a9f5fe8b0fe7d52ec21b4d736304",
+      "git_blob_sha1": "d1f420ee5da031acd9ae0ddf10e30e02eb9bd2db",
+      "caption_zh": "桥栏、民居及台阶投影环境"
+    },
+    {
+      "order": 2,
+      "path": "02-projection-detail-front.jpg",
+      "original_uploaded_name": "da631f34778c50c4da6091797225ea16.jpg",
+      "pixels": [
+        1080,
+        720
+      ],
+      "bytes": 105550,
+      "sha256": "b25a3ce6357cfff604df432c5c97a2f21a1fdbc13a0ecedf3d149661198131df",
+      "git_blob_sha1": "c6992a2e1808cfe02c385e8c0410b217a6bd26d7",
+      "caption_zh": "桥面投影正面细节"
+    },
+    {
+      "order": 3,
+      "path": "03-projection-detail-oblique.jpg",
+      "original_uploaded_name": "c7da703c0b8b1d1ecf57ac5e79895819.jpg",
+      "pixels": [
+        1080,
+        810
+      ],
+      "bytes": 65356,
+      "sha256": "67c63ee275010dd49f0cd312b69cb325b620dee8313e1417d0d4a8889d46b189",
+      "git_blob_sha1": "c4bcdfe19c48a2fdaa4c8a623eb2252cd9b7bac3",
+      "caption_zh": "桥面投影斜向细节"
+    },
+    {
+      "order": 4,
+      "path": "04-staircase-full-installation.jpg",
+      "original_uploaded_name": "e90a2bce3a4754ccbd7b616a5c545847.jpg",
+      "pixels": [
+        1080,
+        810
+      ],
+      "bytes": 179363,
+      "sha256": "e53ceb46c832f7749933745e2d3fe98fa8137e7291741d5fd85e98cb2d6f1a1b",
+      "git_blob_sha1": "f8da392fb8676a9702417ea64e5b8c61d1b78295",
+      "caption_zh": "台阶至桥面的现场投影全景"
+    }
+  ]
+}
