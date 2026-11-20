@@ -30,6 +30,7 @@ This is a **public** repository. No private client assets, unlicensed media/code
 
 ## Initial cross-repository index
 
+- 《一眼万千》（2023）— [作品观念与安昌光影艺术季现场记录](works/one-glance-ten-thousand-2023.md)；已展出，四张现场照片中有两张画面已见于个人 portfolio（其余 JPEG 原件待同步）。
 - 《无需进一步输入 / No Further Input Required》 — see `works/no-further-input-required.md` (artistic identity); original implementation remains separate.
 - 《反向神经谱 / Reverse Neural Score》 — see `works/reverse-neural-score.md` (provisional concept for a musical/neurological-feedback performance).
 - Artistic grammar and reuse principles — `lineages/2026-creative-vocabulary.md`.
